@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QR for Party Uploader</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; display:grid; place-items:center; min-height:100vh; margin:0; }
+    .wrap { text-align:center; }
+    img { width: 60vmin; height: 60vmin; }
+    p { font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Scan to upload a photo</h1>
+    <img id="qr" alt="QR code" />
+    <p id="url"></p>
+  </div>
+  <script>
+    const url = `${location.origin}/guest/`;
+    document.getElementById('url').textContent = url;
+    const qr = `https://chart.googleapis.com/chart?cht=qr&chs=600x600&chl=${encodeURIComponent(url)}`;
+    document.getElementById('qr').src = qr;
+  </script>
+</body>
+</html>
