@@ -40,7 +40,7 @@ The Party Guest Photo Album is a self-contained free interface reliant on Netlif
 The next step in setting up the PGPA is creating your own private GitHub Repository to deploy your own personalized Personal Album. The main way I recommend doing this is: Downloading the ZIP I have provided and creating a Private Repo. To do this follow the next steps:
 
 - Step 1: Create a *GitHub account*.
-- Step 2: **Download** the .zip included in this repository.
+- Step 2: **Download** the .zip included in this repository. ***YOU WILL NEED TO EXTRACT THE CONTENTS IN YOUR COMPUTER***
 - Step 3: Navigate to the Top Right, you will find a **+ sign** and press *'add repository'*.
 - Step 4: Name the Repository (I suggest using the same name as your bucket, however this is not obligatory)
 - Step 5: Upload the .zip file contents to your repository.
