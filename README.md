@@ -110,7 +110,7 @@ you can also **change the paragraph (p)** and add your own message!
 
 ---
 
-# P.S. Upon further thought, allowing for ~50 credits for deployment (giving you 250 credits left). one should be able to upload about 86,772 pictures, which id be surprised if one can fulfill. (Each picture occupies about 9.61 (10) Web Request tokens to upload, and every 10k tokens you spend 3 credits.)
+#### P.S. Upon further thought, allowing for ~50 credits for deployment (giving you 250 credits left). one should be able to upload about 86,772 pictures, which id be surprised if one can fulfill. (Each picture occupies about 9.61 (10) Web Request tokens to upload, and every 10k tokens you spend 3 credits.)
 
 ```
 (10000x250)/3 = 2,500,000/3 = 833,333.33wr | 833,333.33/9.61 = 86,772.4
